@@ -436,4 +436,8 @@ footer
         width: 70%;
         margin: auto;
     }
+    .footer-icon i 
+    {
+        margin-right: 0;
+    }
 }
