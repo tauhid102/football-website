@@ -318,8 +318,72 @@ footer
 /* media queries */
 @media only screen and (max-width:688px)
 {
+    /* header media styless */
     .navbar nav
     {
         display: none;
     }
+    .login
+    {
+        justify-content: flex-end;
+        margin-left: 60%;
+    }
+    .container
+    {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .right-header img 
+    {
+        width: 90%;
+        margin-top: 30px;
+    }
+    /* player media query */
+    .players
+    {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:27px ;
+    line-height: 16px;
+    }
+    /* registration part media query */
+    .registration
+    {
+        width: 100%;
+    }
+    .video-play-logo
+    {
+        margin-left: 10%;
+    }
+    .registration-form
+    {
+        margin: 0;
+    }
+    .registration-box
+{
+    display:block;
+    align-items: center;
+    column-gap: 100px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    width: 90%;
+}
+.highlights-matches
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 100%px;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.highlights-info
+{
+    width: 500px;
+}
 }
