@@ -366,6 +366,14 @@ footer
         
         width: 80%;
     }
+    .video-play-logo h1
+    {
+        width: 100%;
+    }
+    .video-play-logo h1 a i 
+    {
+        width: 100%;
+    }
     .registration-form
     {
         margin: 0;
@@ -395,6 +403,13 @@ footer
     {
         width: 90%;
         box-sizing: border-box;
+    }
+    .highlights-info h2
+    {
+        width: 100%;
+    }
+    .highlights-info p {
+        width: 100%;
     }
     .highlights-img img {
 
