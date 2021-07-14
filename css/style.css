@@ -382,28 +382,25 @@ footer
         padding: 50px;
         width: 90%;
     }
+    /* highlights matches responsive */
     .highlights-matches
     {
         display: grid;
         grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
-        width: 100%px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        width: 100%;
     }
     .highlights-info
     {
         width: 90%;
-        padding: 0 200px;
-        margin: auto;
         box-sizing: border-box;
     }
     .highlights-img img {
 
         width: 90%;
         margin-top: 20px;
-        padding: 10px 200px;
         box-sizing: border-box;
-        margin-left: 50px;
 
     }
 /* latest news media query */
@@ -419,7 +416,7 @@ footer
     {
         width: 100%;
     }
-    /* footer are query */
+    /* footer responsive query */
 
     .footer
     {
