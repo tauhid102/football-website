@@ -352,6 +352,10 @@ footer
     grid-row-gap:27px ;
     line-height: 16px;
     }
+    .player-img img 
+    {
+        width: 90%;
+    }
     /* registration part media query */
     .registration
     {
@@ -366,6 +370,7 @@ footer
     {
         margin: 0;
         padding-left: 5%;
+        
     
     }
     .registration-box
