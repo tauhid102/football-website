@@ -363,15 +363,17 @@ footer
     }
     .video-play-logo
     {
-        margin-left: 10%;
+        
         width: 80%;
     }
     .registration-form
     {
         margin: 0;
-        padding-left: 5%;
-        
-    
+        margin-left: -40px;  
+    }
+    .registration-form input,legend
+    {
+        width: 80%;
     }
     .registration-box
     {
